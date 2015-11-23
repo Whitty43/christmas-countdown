@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+    background-image: url(http://files.vladstudio.com/joy/traveling_christmas_tree/wall/vladstudio_traveling_christmas_tree_1920x1440_signed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster', cursive; 
+    text-align: center;
+}
+
+#clockdiv {
+    display: inline;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    position: absolute;
+    left: 27%;
+    top: 200px;
+    clear: both;
+}
+ul {
+    list-style-type: none;
+    position: absolute;
+    left: 25%;
+    top: 150px;
+    clear: both;
+}
+li {
+    color: white;
+    float: left;
+    padding-right: 30px;
+    font-size: 30px;
+    
+    
+}
+h1 {
+    position: absolute;
+    left: 26%;
+    color: white;
+    top: 10px;
+    font-size: 45px;
+}
+.santa {
+   position: absolute;
+    
+    top: 300px;
+
+  animation-name: diagonal-slide;
+  animation-duration: 15s;
+  animation-iteration-count: 10;
+}
+
+@keyframes diagonal-slide {
+
+ 
+  0% {
+    left: 110%;
+  }
+
+  15% {
+    left: 80%;
+  }
+
+  30% {
+    left: 60%;
+  }
+
+  45% {
+    left: 40%;
+  }
+    
+    60% {
+     left: 20%   
+    }
+    75%{
+        left: 0;
+    }
+    90% {
+        left: -180px;
+    }
+    100% {
+        right: -180px;
+    }
+}
+
+}
+
